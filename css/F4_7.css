@@ -1,0 +1,121 @@
+body {
+    background-image:url('4F_7.png');
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 40px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+
+/*
+    ��ư���� ���������� ������ �������� ���Ƴ��� class.
+*/
+.btn{
+    width: 37px;
+    height: 53px;
+    position:page;
+    text-align: center;
+    display: block;
+    color:#232323;
+}
+
+/*
+    ���� �ٿ� �ִ� ���� ��ư���� ������ class
+*/
+.btn_column_1{
+    margin-left:357px;
+}
+
+/*
+    ������ �ٿ� �ִ� ���� ��ư���� ������ class
+*/
+.btn_column_2{
+    margin-left:400px;
+}
+
+/*
+    1��° row�� ������ class. 1����, 9����
+*/
+.btn_row_1{
+    margin-top:28px;
+}
+
+/*
+    3��° row�� ������ class. 3����, 11����
+*/
+.btn_row_3{
+    margin-top:17px;
+}
+
+/*
+    5��° row�� ������ class. 5����, 13����
+*/
+.btn_row_5{
+    margin-top:18px;
+}
+
+/*
+    7��° row�� ������ class. 7����, 15����
+*/
+.btn_row_7{
+    margin-top:18px;
+}
+
+/*
+    2,4,6,8��° row�� ������ class. ¦���������� ���� ����.
+    �ٷ� ���� ��ư���� 3px ������(���η�)
+*/
+.btn_row_next{
+    margin-top:3px;
+}
+
+/*
+    9������ �ٽ� �ʱ�ȭ�Ǿ����ϹǷ�, ���� class�� ����
+*/
+.btn9{
+    margin-top:-490px;
+}
+
+/*
+    ���̺��� ���� �� ��ư���� �� class�� ����
+*/
+.btn1{
+    border-radius: 13px 0px 0px 0px;
+}
+
+/*
+    ���̺��� ���� �� ��ư���� �� class�� ����
+*/
+.btn2{
+    border-radius: 0px 13px 0px 0px;
+}
+
+/*
+    ���̺��� ���� �Ʒ� ��ư���� �� class�� ����
+*/
+.btn3{
+    border-radius: 0px 0px 0px 13px;
+}
+
+/*
+    ���̺��� ���� �Ʒ� ��ư���� �� class�� ����
+*/
+.btn4{
+    border-radius: 0px 0px 13px 0px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}

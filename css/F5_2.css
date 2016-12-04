@@ -1,0 +1,79 @@
+body {
+    background-image:url('5F_2.png');
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn {
+    position:page;
+    display: block;
+    width: 87px;
+    height: 87px;
+    color: #232323;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.btn1 {
+    -webkit-transform: rotate(18deg);
+    margin-left :31px;
+    margin-top : 132px;
+}
+
+.btn2 {
+    -webkit-transform: rotate(12deg);
+    margin-left :142px;
+    margin-top : -56px;
+}
+
+.btn3 {
+    -webkit-transform: rotate(9deg);
+    margin-left :256px;
+    margin-top : -66px;
+}
+
+.btn4 {
+    -webkit-transform: rotate(4.5deg);
+    margin-left :373px;
+    margin-top : -74px;
+}
+
+.btn5 {
+    -webkit-transform: rotate(357deg);
+    margin-left :493px;
+    margin-top : -86px;
+}
+
+.btn6 {
+    -webkit-transform: rotate(355deg);
+    margin-left :614px;
+    margin-top : -97px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 

@@ -1,0 +1,155 @@
+body {
+    background-image:url('5F_9.png');
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.qcirclebtn
+{
+    position:page;
+    display: block;
+    width: 63px;
+    height: 63px;
+    border-radius: 0px 0px 0px 80px;
+    text-align: center;
+}
+
+.btn1 {
+    -webkit-transform: rotate(128deg);
+
+    margin-left :200px;
+    margin-top : -26px;
+}
+
+.btn2 {
+    -webkit-transform: rotate(218deg);
+
+    margin-left :250px;
+    margin-top : -24px;
+}
+
+.btn3 {
+    -webkit-transform: rotate(308deg);
+
+    margin-left :210px;
+    margin-top : -13px;
+}
+
+.btn4 {
+    -webkit-transform: rotate(38deg);
+
+    margin-left :160px;
+    margin-top : -102px;
+}
+
+.btn5 {
+    -webkit-transform: rotate(141.5deg);
+
+    margin-left :60px;
+    margin-top : 29px;
+}
+
+.btn6 {
+    -webkit-transform: rotate(231.5deg);
+
+    margin-left :100px;
+    margin-top : -14px;
+}
+
+.btn7 {
+    -webkit-transform: rotate(321.5deg);
+
+    margin-left :50px;
+    margin-top : -24px;
+}
+
+.btn8 {
+    -webkit-transform: rotate(51.5deg);
+
+    margin-left :11px;
+    margin-top : -112px;
+}
+
+.btn9 {
+    -webkit-transform: rotate(132deg);
+
+    margin-left :378px;
+    margin-top : -105px;
+}
+
+.btn10 {
+    -webkit-transform: rotate(222deg);
+
+    margin-left :425px;
+    margin-top : -21px;
+}
+
+.btn11 {
+    -webkit-transform: rotate(312deg);
+
+    margin-left :383px;
+    margin-top : -16px;
+}
+
+.btn12 {
+    -webkit-transform: rotate(42deg);
+
+    margin-left :336px;
+    margin-top : -105px;
+}
+
+.btn13 {
+    -webkit-transform: rotate(141.5deg);
+
+    margin-left :193px;
+    margin-top : 59px;
+}
+
+.btn14 {
+    -webkit-transform: rotate(231.5deg);
+
+    margin-left :232px;
+    margin-top : -14px;
+}
+
+.btn15 {
+    -webkit-transform: rotate(322deg);
+
+    margin-left :183px;
+    margin-top : -23px;
+}
+
+.btn16 {
+    -webkit-transform: rotate(51.5deg);
+
+    margin-left :144px;
+    margin-top : -113px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 

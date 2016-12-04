@@ -1,0 +1,97 @@
+body {
+    background-image:url('4F_6.png');
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn{
+    position:page;
+    display: block;
+    width: 71px;
+    height: 48px;
+    color: #232323;
+    text-align: center;
+}
+
+.btn_1 {
+    margin-left:52px;
+    margin-top:298px;
+}
+
+.btn_9 {
+    margin-left:52px;
+    margin-top:7px;
+}
+
+.btn_row_1 {
+    margin-top:-48px; 
+}
+
+.btn_row_2 {
+    margin-top:-48px; 
+}
+
+.btn_column_2 {
+    margin-left:125px;
+}
+
+.btn_column_3 {
+    margin-left:219px;
+}
+
+.btn_column_4 {
+    margin-left:294px;
+}
+
+.btn_column_5 {
+    margin-left:388px;
+    margin-top:-47px;
+}
+
+.btn_column_6 {
+    margin-left:461px;
+}
+
+.btn_column_7 {
+    width: 72px;
+    margin-left:554px;
+    margin-top:-48px;
+}
+
+.btn_column_8 {
+    margin-left:629px;
+}
+
+.btn_lu{
+    border-radius: 16px 0px 0px 0px;
+}
+
+.btn_ru{
+    border-radius: 0px 16px 0px 0px;
+}
+
+.btn_ld{
+    border-radius: 0px 0px 0px 16px;
+}
+
+.btn_rd{
+    border-radius: 0px 0px 16px 0px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}

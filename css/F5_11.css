@@ -1,0 +1,149 @@
+body {
+    background-image:url('5F_11.png');
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 30px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn_1 {
+    position:page;
+    display: block;
+    width: 98px;
+    height: 142px;
+    color: #232323;
+    text-align: center;
+}
+
+.btn_2 {
+    position:page;
+    display: block;
+    width: 91px;
+    height: 91px;
+    color: #232323;
+    text-align: center;
+}
+
+.btn1 {
+    -webkit-transform: rotate(7deg);
+    border-radius: 35px 0px 0px 0px;
+    margin-left :123px;
+    margin-top : 35px;
+}
+
+.btn2 {
+    -webkit-transform: rotate(7deg);
+    border-radius: 0px 35px 0px 0px;
+    margin-left :227px;
+    margin-top : -129px;
+}
+
+.btn3 {
+    -webkit-transform: rotate(7deg);
+    border-radius: 0px 0px 0px 35px;
+    margin-left :105px;
+    margin-top : -13px;
+}
+
+.btn4 {
+    -webkit-transform: rotate(7deg);
+    border-radius: 0px 0px 35px 0px;
+    margin-left :209px;
+    margin-top : -129px;
+}
+
+.btn5 {    
+    -webkit-transform: rotate(358deg);
+    border-radius: 35px 0px 0px 0px;
+    margin-left :477px;
+    margin-top : -273px;
+}
+
+.btn6 {
+    -webkit-transform: rotate(358deg);
+    border-radius: 0px 35px 0px 0px;
+    margin-left :582px;
+    margin-top : -146px;
+}
+
+.btn7 {
+    -webkit-transform: rotate(358deg);
+    border-radius: 0px 0px 0px 35px;
+    margin-left :482px;
+    margin-top : 5px;
+}
+
+.btn8 {
+    -webkit-transform: rotate(358deg);
+    border-radius: 0px 0px 35px 0px;
+    margin-left :587px;
+    margin-top : -146px;
+}
+
+.btn9 {
+    -webkit-transform: rotate(9deg);
+    border-radius: 16px 16px 16px 16px;
+    margin-left :24px;
+    margin-top : 74px;
+}
+
+.btn10 {
+    -webkit-transform: rotate(6deg);
+    border-radius: 16px 16px 16px 16px;
+    margin-left :151px;
+    margin-top : -73px;
+}
+
+.btn11 {
+    -webkit-transform: rotate(3deg);
+    border-radius: 16px 16px 16px 16px;
+    margin-left :283px;
+    margin-top : -81px;
+}
+
+.btn12 {
+    -webkit-transform: rotate(2deg);
+    border-radius: 16px 16px 16px 16px;
+    margin-left :419px;
+    margin-top : -87px;
+}
+
+.btn13 {
+    -webkit-transform: rotate(359deg);
+    border-radius: 16px 16px 16px 16px;
+    margin-left :551px;
+    margin-top : -89px;
+}
+
+.btn14 {
+    -webkit-transform: rotate(357deg);
+    border-radius: 16px 16px 16px 16px;
+    margin-left :686px;
+    margin-top : -98px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 

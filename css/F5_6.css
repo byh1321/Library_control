@@ -1,0 +1,195 @@
+body {
+    background-image:url('5F_6.png');
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.scirclebtn{
+    position:page;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-left: 39px solid transparent;
+    border-right: 39px solid transparent;
+    border-bottom: 67px solid transparent;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.qcirclebtn
+{
+    position:page;
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 0px 0px 0px 72px;
+    text-align: center;
+}
+
+.btn1 {
+    -webkit-transform: rotate(126deg);
+
+    margin-left :104px;
+    margin-top : -1px;
+}
+
+.btn2 {
+    -webkit-transform: rotate(186deg);
+
+    margin-left :134px;
+    margin-top : -80px;
+}
+
+.btn3 {
+    -webkit-transform: rotate(246deg);
+
+    margin-left :162px;
+    margin-top : -47px;
+}
+
+.btn4 {
+    -webkit-transform: rotate(306deg);
+
+    margin-left :160px;
+    margin-top : -33px;
+}
+
+.btn5 {
+    -webkit-transform: rotate(6deg);
+
+    margin-left :128px;
+    margin-top : -54px;
+}
+
+.btn6 {
+    -webkit-transform: rotate(66deg);
+
+    margin-left :100px;
+    margin-top : -87px;
+}
+
+.btn7 {
+    -webkit-transform: rotate(134deg);
+
+    margin-left :16px;
+    margin-top : 73px;
+}
+
+.btn8 {
+    -webkit-transform: rotate(193deg);
+
+    margin-left :48px;
+    margin-top : -77px;
+}
+
+.btn9 {
+    -webkit-transform: rotate(253deg);
+
+    margin-left :73px;
+    margin-top : -44px;
+}
+
+.btn10 {
+    -webkit-transform: rotate(313deg);
+
+    margin-left :66px;
+    margin-top : -34px;
+}
+
+.btn11 {
+    -webkit-transform: rotate(13deg);
+
+    margin-left :34px;
+    margin-top : -57px;
+}
+
+.btn12 {
+    -webkit-transform: rotate(73deg);
+
+    margin-left :8px;
+    margin-top : -90px;
+}
+
+.btn13 {
+    -webkit-transform: rotate(175deg);
+
+    margin-left :371px;
+    margin-top : -291px;
+}
+
+.btn14 {
+    -webkit-transform: rotate(265deg);
+
+    margin-left :377px;
+    margin-top : -1px;
+}
+
+.btn15 {
+    -webkit-transform: rotate(355deg);
+
+    margin-left :310px;
+    margin-top : -62px;
+}
+
+.btn16 {
+    -webkit-transform: rotate(85deg);
+
+    margin-left :304px;
+    margin-top : -135px;
+}
+
+.btn17 {
+    -webkit-transform: rotate(179.5deg);
+
+    margin-left :304px;
+    margin-top : 116px;
+}
+
+.btn18 {
+    -webkit-transform: rotate(269.5deg);
+
+    margin-left :305px;
+    margin-top : -0px;
+}
+
+.btn19 {
+    -webkit-transform: rotate(359.5deg);
+
+    margin-left :237px;
+    margin-top : -68px;
+}
+
+.btn20 {
+    -webkit-transform: rotate(89.5deg);
+
+    margin-left :237px;
+    margin-top : -135px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 

@@ -1,0 +1,128 @@
+body {
+    background-image:url('5F_10.png');
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn_1 {
+    position:page;
+    display: block;
+    width: 80px;
+    height: 116px;
+    color: #232323;
+    text-align: center;
+}
+
+.btn_2 {
+    position:page;
+    display: block;
+    width: 80px;
+    color: #232323;
+    text-align: center;
+    height:80px;
+}
+
+.btn1 {
+    -webkit-transform: rotate(6deg);
+    border-radius: 30px 0px 0px 0px;
+    margin-left :495px;
+    margin-top : 47px;
+}
+
+.btn2 {
+    -webkit-transform: rotate(6deg);
+    border-radius: 0px 30px 0px 0px;
+    margin-left :582px;
+    margin-top : -107px;
+}
+
+.btn3 {
+    -webkit-transform: rotate(6deg);
+    border-radius: 0px 0px 0px 30px;
+    margin-left :483px;
+    margin-top : -8px;
+}
+
+.btn4 {
+    -webkit-transform: rotate(6deg);
+    border-radius: 0px 0px 30px 0px;
+    margin-left :570px;
+    margin-top : -107px;
+}
+
+.btn5 {
+    -webkit-transform: rotate(332.5deg);
+    border-radius: 14px 14px 14px 14px;
+    margin-left :32px;
+    margin-top : -233px;
+}
+
+.btn6 {
+    -webkit-transform: rotate(332.5deg);
+    border-radius: 14px 14px 14px 14px;
+    margin-left :82px;
+    margin-top : 8px;
+}
+
+.btn7 {
+    -webkit-transform: rotate(332.5deg);
+    border-radius: 14px 14px 14px 14px;
+    margin-left :133px;
+    margin-top : 10px;
+}
+
+.btn8 {
+    -webkit-transform: rotate(9deg);
+    border-radius: 14px 14px 14px 14px;
+    margin-left :313px;
+    margin-top : 49px;
+}
+
+.btn9 {
+    -webkit-transform: rotate(8deg);
+    border-radius: 14px 14px 14px 14px;
+    margin-left :423px;
+    margin-top : -63px;
+}
+
+.btn10 {
+    -webkit-transform: rotate(4deg);
+    border-radius: 14px 14px 14px 14px;
+    margin-left :527px;
+    margin-top : -69px;
+}
+
+.btn11 {
+    -webkit-transform: rotate(1deg);
+    border-radius: 14px 14px 14px 14px;
+    margin-left :635px;
+    margin-top : -74px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 

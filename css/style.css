@@ -1,0 +1,197 @@
+body {
+    background-image:url('floor_2.png');
+    background-repeat: no-repeat;
+    background-size:400px;
+    background-position:initial;
+    background-attachment: fixed;
+    background-position: 0px 100px; 
+    background-size: 494px 440px;
+}
+
+.button {
+    position:relative;
+    display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    background: #000;
+    left :130px;
+    top : 190px;
+
+    z-index:1;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 
+ul {
+	border-radius:50%;
+	//overflow:hidden;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 400px;
+	height: 200px;
+}
+
+ul li {
+	position: absolute;
+	overflow: hidden;
+	left: 50%;
+	top: 50%;
+	margin-left: -160px;
+	margin-top: -220px;
+	width: 200px;
+	height: 200px;
+	transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
+	-webkit-transform-origin: 100% 100%;
+	-webkit-transform: translate(50px,100px);
+}
+
+li:nth-child(1){
+	-webkit-transform: rotate(0deg)   skew(50deg);
+	/*-webkit-animation: open-sombra-7 1s 1;*/
+    
+    
+    
+}
+
+li:nth-child(1) a{
+    /*background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #D8D8D8 99%, #D8D8D8 99%, rgba(0,0,0,0) 99%); */
+    background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #D8D8D8 58%, #D8D8D8 99%, rgba(0,0,0,0) 99%); 
+    /*                                                                    이부분을 A         이부분을 B   이부분을 C, 이부분을 D*/
+    /*
+        A와 B를 바꾸면 원형 버튼에서 내부원의 크기를 조절가능.
+        A와 B의 퍼센트를 같게 해야 색이 유지됨.
+
+        C와 D를 0%로 바꾸면 투명하게 할 수 있음.
+    */
+    
+}
+li:nth-child(2){ 
+	-webkit-transform: rotate(45deg)  skew(50deg);
+	/*-webkit-animation: open-sombra-8 1s 1;*/
+}
+li:nth-child(2) a
+{background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #808080 58%, #808080 99%, rgba(0,0,0,0) 99%); }
+li:nth-child(3) {
+    -webkit-transform: rotate(90deg) skew(50deg);
+    /*-webkit-animation: open-sol-1 1s 1;*/
+}
+
+li:nth-child(3) a{background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #D8D8D8 58%, #D8D8D8 99%, rgba(0,0,0,0) 99%); }
+li:nth-child(4){
+	-webkit-transform: rotate(135deg) skew(50deg);
+	/*-webkit-animation: open-sol-2 1s 1;*/
+}
+li:nth-child(4) a{background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #808080 58%, #808080 99%, rgba(0,0,0,0) 99%); }
+li:nth-child(5){
+	-webkit-transform: rotate(180deg) skew(50deg);
+	/*-webkit-animation: open-sol-3 1s 1;*/
+}
+li:nth-child(5) a{background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #D8D8D8 58%, #D8D8D8 99%, rgba(0,0,0,0) 99%);); }
+li:nth-child(6){
+	-webkit-transform: rotate(225deg) skew(50deg);
+	/*-webkit-animation: open-sol-4 1s 1;*/
+}
+li:nth-child(6) a{background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #808080 58%, #808080 99%, rgba(0,0,0,0) 99%); }
+li:nth-child(7){
+	-webkit-transform: rotate(270deg) skew(50deg); 
+	/*-webkit-animation: open-sombra-5 1s 1;*/
+}
+li:nth-child(7) a{ background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #D8D8D8 58%, #D8D8D8 99%,	rgba(0,0,0,0) 99%)
+}
+
+li:nth-child(8){
+	-webkit-transform: rotate(315deg) skew(50deg); 
+	/*-webkit-animation: open-sombra-6 1s 1;*/
+}
+li:nth-child(8) a{background-image:-webkit-radial-gradient(50% 50%,circle closest-side, rgba(0,0,0,0) 58%, #808080 58%, #808080 99%, rgba(0,0,0,0) 99%); }
+
+li a{
+	-webkit-transform: skew(-50deg) rotate(-70deg) scale(1);
+	background: radial-gradient(transparent 40%, #449e6a 25%);
+	/*font-family: 'crete_roundregular';*/
+    font-family:Helvetica,Arial, sans-serif;
+	line-height: 14px;
+	text-transform: capitalize;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 1.8em;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	margin-left: -100px;
+	left: 50%;
+	top: 0;
+}
+
+@-webkit-keyframes open-sombra-7 {
+	0%   { -webkit-transform: rotate(70deg) skew(50deg) scale(0.1);	}
+	20%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	40%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	100% { -webkit-transform: rotate(0deg)  skew(50deg); }
+}
+
+@-webkit-keyframes open-sombra-8 {
+	0% {-webkit-transform: rotate(70deg) skew(50deg) scale(0.1);	}
+	20%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	40%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	100% { -webkit-transform: rotate(45deg)  skew(50deg);}
+}
+
+@-webkit-keyframes open-sol-1 {
+	0% {-webkit-transform: rotate(70deg) skew(50deg) scale(0.1);	}
+	20%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	40%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	100% { -webkit-transform: rotate(90deg)  skew(50deg);}
+}
+
+@-webkit-keyframes open-sol-2 {
+	0% {-webkit-transform: rotate(70deg) skew(50deg) scale(0.1);	}
+	20%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	40%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	100% { -webkit-transform: rotate(135deg)  skew(50deg);}
+}
+@-webkit-keyframes open-sol-3 {
+	0% {-webkit-transform: rotate(70deg) skew(50deg) scale(0.1);	}
+	20%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	40%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	100% { -webkit-transform: rotate(180deg)  skew(50deg); }
+}
+@-webkit-keyframes open-sol-4 {
+	0% {-webkit-transform: rotate(70deg) skew(50deg) scale(0.1);	}
+	20%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	40%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	100% { -webkit-transform: rotate(225deg)  skew(50deg); }
+}
+@-webkit-keyframes open-sombra-5 {
+	0% {-webkit-transform: rotate(70deg) skew(50deg) scale(0.1);	}
+	20%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	40%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	100% { -webkit-transform: rotate(-90deg)  skew(50deg); }
+}
+@-webkit-keyframes open-sombra-6 {
+	0% {-webkit-transform: rotate(70deg) skew(50deg) scale(0.1);	}
+	20%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	40%  { -webkit-transform: rotate(70deg) skew(50deg) scale(1); }
+	100% { -webkit-transform: rotate(-45deg)  skew(50deg); }
+}

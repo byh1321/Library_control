@@ -1,0 +1,83 @@
+body {
+    background-image:url('3F_1.png');
+    background-repeat: no-repeat;
+    background-size:350px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px;
+    position:absolute;
+}
+
+.Navvar {
+    display: block;
+    width: 90px;
+    height: 46px;
+    margin-top: -17px;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    color:#fff;
+}
+
+.btn {
+    position:page;
+    display: block;
+    width: 46px;
+    height: 46px;
+    color: #232323;
+    text-align: center;
+}
+
+.btn1 {
+    -webkit-transform: rotate(9deg);
+    border-radius: 8px 8px 8px 8px;
+    margin-left :43px;
+    margin-top : 23px;
+}
+
+.btn2 {
+    -webkit-transform: rotate(4deg);
+    border-radius: 8px 8px 0px 0px;
+    margin-left :27px;
+    margin-top : 84px;
+}
+
+.btn3 {
+    -webkit-transform: rotate(4deg);
+    border-radius: 0px 0px 8px 8px;
+    margin-left :24px;
+    margin-top : 0px;
+}
+
+.btn4 {
+    -webkit-transform: rotate(358deg);
+    border-radius: 8px 8px 8px 8px;
+    margin-left :21px;
+    margin-top : 83px;
+} 
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 

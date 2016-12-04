@@ -1,0 +1,72 @@
+body {
+    background-image:url('4F_1.png');
+    background-repeat: no-repeat;
+    background-size:350px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn{
+    position:page;
+    display: block;
+    width: 48px;
+    height: 48px;
+    color: #232323;
+    text-align: center;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.btn1 {
+    -webkit-transform: rotate(9deg);
+
+    margin-left :45px;
+    margin-top : 26px;
+}
+
+.btn2 {
+    -webkit-transform: rotate(3deg);
+
+    margin-left :25px;
+    margin-top : 137px;
+}
+
+.btn3 {
+    border-radius: 9px 0px 0px 9px;
+    width: 47px;
+
+    margin-left :96px;
+    margin-top : 112px;
+}
+
+.btn4 {
+    border-radius: 0px 9px 9px 0px;
+
+    margin-left :144px;
+    margin-top : -48px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 

@@ -1,0 +1,143 @@
+body {
+    background-image:url('3F_6.png');
+    background-repeat: no-repeat;
+    background-size:350px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 40px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn_set {
+    position:page;
+    display: block;
+    color: #232323;
+    text-align: center;
+    width: 41px;
+    height: 29px;
+}
+.btn1 {
+    border-radius: 10px 0px 0px 0px;
+
+    margin-left :57px;
+    margin-top : 134px;
+}
+
+.btn2 {
+    border-radius: 0px 10px 0px 0px;
+
+    margin-left :101px;
+    margin-top : -29px;
+}
+
+.btn3 {
+    border-radius: 0px 0px 0px 10px;
+
+    margin-left :57px;
+    margin-top : 3px;
+}
+
+.btn4 {
+    border-radius: 0px 0px 10px 0px;
+
+    margin-left :101px;
+    margin-top : -29px;
+}
+
+.btn5 {
+    border-radius: 10px 0px 0px 0px;
+
+    margin-left :192px;
+    margin-top : -62px;
+}
+
+.btn6 {
+    border-radius: 0px 10px 0px 0px;
+
+    margin-left :236px;
+    margin-top : -29px;
+}
+
+.btn7 {
+    border-radius: 0px 0px 0px 10px;
+
+    margin-left :192px;
+    margin-top : 4px;
+}
+
+.btn8 {
+    border-radius: 0px 0px 10px 0px;
+
+    margin-left :236px;
+    margin-top : -29px;
+}
+
+.btn9 {
+    border-radius: 10px 0px 0px 0px;
+
+    margin-left :57px;
+    margin-top : 43px;
+}
+
+.btn10 {
+    border-radius: 0px 10px 0px 0px;
+
+    margin-left :101px;
+    margin-top : -29px;
+}
+
+.btn11 {
+    border-radius: 0px 0px 0px 10px;
+
+    margin-left :57px;
+    margin-top : 4px;
+}
+
+.btn12 {
+    border-radius: 0px 0px 10px 0px;
+
+    margin-left :101px;
+    margin-top : -29px;
+}
+
+.btn13 {
+    border-radius: 10px 0px 0px 0px;
+
+    margin-left :192px;
+    margin-top : -61px;
+}
+
+.btn14 {
+    border-radius: 0px 10px 0px 0px;
+
+    margin-left :236px;
+    margin-top : -29px;
+}
+
+.btn15 {
+    border-radius: 0px 0px 0px 10px;
+
+    margin-left :192px;
+    margin-top : 4px;
+}
+
+.btn16 {
+    border-radius: 0px 0px 10px 0px;
+
+    margin-left :236px;
+    margin-top : -29px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}

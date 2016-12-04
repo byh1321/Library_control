@@ -1,0 +1,74 @@
+body {
+    background-image:url('5F_3.png');
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn {
+    position:page;
+    display: block;
+    width: 106px;
+    height: 106px;
+    color: #232323;
+    text-align: center;
+    border-radius: 18px 18px 18px 18px;
+}
+
+.btn1 {
+    -webkit-transform: rotate(7deg);
+    margin-left :47px;
+    margin-top : 160px;
+}
+
+.btn2 {
+    -webkit-transform: rotate(2deg);
+    margin-left :200px;
+    margin-top : -90px;
+}
+
+.btn3 {
+    -webkit-transform: rotate(0deg);
+    margin-left :351px;
+    margin-top : -105px;
+    padding:30px;
+}
+
+.btn4 {
+    -webkit-transform: rotate(354deg);
+    margin-left :508px;
+    margin-top : -115px;
+}
+
+.btn5 {
+    -webkit-transform: rotate(348deg);
+    margin-left :661px;
+    margin-top : -130px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 

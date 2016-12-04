@@ -1,0 +1,114 @@
+body {
+    background-image:url('3F_5.png');
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 50px;
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+.btn {
+    position:page;
+    display: block;
+    width: 34px;
+    height: 46px;
+    color: #232323;
+    text-align: center;    
+}
+.btn1 {
+    border-radius: 12px 0px 0px 0px;
+
+    margin-left :210px;
+    margin-top : 33px;
+}
+
+.btn2 {
+    border-radius: 0px 12px 0px 0px;
+
+    margin-left :245px;
+    margin-top : -46px;
+}
+
+.btn3 {
+    border-radius: 0px 0px 0px 12px;
+
+    margin-left :210px;
+    margin-top : 2px;
+}
+
+.btn4 {
+    border-radius: 0px 0px 12px 0px;
+
+    margin-left :245px;
+    margin-top : -47px;
+}
+
+.btn5 {
+    border-radius: 12px 0px 0px 0px;
+
+    margin-left :210px;
+    margin-top : 26px;
+}
+
+.btn6 {
+    border-radius: 0px 12px 0px 0px;
+
+    margin-left :245px;
+    margin-top : -47px;
+}
+
+.btn7 {
+    border-radius: 0px 0px 0px 12px;
+
+    margin-left :210px;
+    margin-top : 2px;
+}
+
+.btn8 {
+    border-radius: 0px 0px 12px 0px;
+
+    margin-left :245px;
+    margin-top : -46px;
+}
+
+.btn9 {
+    border-radius: 12px 0px 0px 0px;
+
+    margin-left :210px;
+    margin-top : 26px;
+}
+
+.btn10 {
+    border-radius: 0px 12px 0px 0px;
+
+    margin-left :245px;
+    margin-top : -47px;
+}
+
+.btn11 {
+    border-radius: 0px 0px 0px 12px;
+
+    margin-left :210px;
+    margin-top : 2px;
+}
+
+.btn12 {
+    border-radius: 0px 0px 12px 0px;
+
+    margin-left :245px;
+    margin-top : -46px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}

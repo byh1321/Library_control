@@ -1,0 +1,62 @@
+body {
+    background-image:url('2F_5.png');
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 52px; 
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn {
+    position:page;
+    display: block;
+    width: 89px;
+    height: 89px;
+    color: #232323;
+    text-align: center;
+}
+
+.btn1 {
+    border-radius: 16px 16px 16px 16px;
+    margin-left :133px;
+    margin-top : 35px;
+}
+
+.btn2 {
+    border-radius: 16px 0px 0px 16px;
+    margin-left :388px;
+    margin-top : -89px;
+}
+
+.btn3 {
+    border-radius: 0px 16px 16px 0px;
+    margin-left :477px;
+    margin-top : -89px;
+}
+
+.btn4 {
+    border-radius: 16px 16px 0px 0px;
+    margin-left :635px;
+    margin-top : 6px;
+}
+
+.btn5 {
+    border-radius: 0px 0px 16px 16px;
+    margin-left :635px;
+    margin-top : 1px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}

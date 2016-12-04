@@ -1,0 +1,88 @@
+body {
+    background-image:url('2F_1.png');
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px -100px;
+}
+
+#minimap {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+    width:200px;
+}
+
+.btn{
+    position:page;
+    display: block;
+    width: 67px;
+    height: 46px;
+    color: #232323;
+    text-align: center;
+}
+
+.l_u_Bold{
+    border-radius: 16px 0px 0px 0px;
+}
+
+.l_d_Bold{
+    border-radius: 0px 0px 0px 16px;
+}
+
+.r_u_Bold{
+    border-radius: 0px 16px 0px 0px;
+}
+
+.r_d_Bold{
+    border-radius: 0px 0px 16px 0px;
+}
+
+.btn1 {
+    margin-left :85px;
+    margin-top : 280px;
+}
+
+.btn2 {
+    margin-left :154px;
+    margin-top : -46px;
+}
+
+.btn3 {
+    margin-left :85px;
+    margin-top : 5px;
+}
+
+.btn4 {
+    margin-left :154px;
+    margin-top : -46px;
+}
+
+.btn5 {
+    margin-left :275px;
+    margin-top : -97px;
+}
+
+.btn6 {
+    margin-left :344px;
+    margin-top : -46px;
+}
+
+.btn7 {
+    margin-left :275px;
+    margin-top : 5px;
+}
+
+.btn8 {
+    margin-left :344px;
+    margin-top : -46px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}

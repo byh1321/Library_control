@@ -1,0 +1,140 @@
+body {
+    background-image:url('floor_2_seated.png');
+    background-repeat: no-repeat;
+    background-size:400px;
+    background-position:initial;
+    background-attachment: local;
+    background-position: 0px 100px; 
+    background-size: 494px 440px;
+}
+
+.btn1 {
+    position:page;
+    display: block;
+    width: 100px;
+    height: 60px;
+    
+    line-height: 40px;
+    text-align: center;
+    opacity: 0.5;
+    -webkit-transform: rotate(-10deg);
+    
+    
+
+    margin-left :40px;
+    margin-top : 250px;
+}
+
+.btn2 {
+    position:page;
+    display: block;
+    width: 100px;
+    height: 70px;
+    
+    line-height: 60px;
+    text-align: center;
+    -webkit-transform: rotate(30deg);
+    opacity: 0.5;
+    
+    
+
+    margin-left :80px;
+    margin-top : -180px;
+}
+
+.btn3 {
+    position:page;
+    display: block;
+    width: 80px;
+    height: 50px;
+    
+    line-height: 50px;
+    text-align: center;
+    opacity: 0.5;
+    
+    
+
+    margin-left :55px;
+    margin-top : -140px;
+}
+
+.btn4 {
+        position:page;
+    display: block;
+    width: 160px;
+    height: 30px;
+    
+    text-align: center;
+    line-height: 25px;
+    opacity: 0.5;
+    
+    
+
+    margin-left :165px;
+    margin-top : -60px;
+}
+
+.btn5 {
+    position:page;
+    display: block;
+    width: 50px;
+    height: 80px;
+    
+    text-align: center;
+    opacity: 0.5;
+    
+    
+
+    margin-left :218px;
+    margin-top : -7px;
+}
+
+.btn6 {
+    position:page;
+    display: block;
+    width: 80px;
+    height: 40px;
+    
+    text-align: center;
+    opacity: 0.5;
+    
+    
+
+    margin-left :320px;
+    margin-top : -90px;
+}
+
+.btn7 {
+    position:page;
+    display: block;
+    width: 100px;
+    height: 55px;
+    
+    line-height: 50px;
+    text-align: center;
+    -webkit-transform: rotate(320deg);
+    opacity: 0.5;
+    
+    
+
+    margin-left :295px;
+    margin-top : 25px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+
+p a {
+  color: #000000;
+}
+ 
