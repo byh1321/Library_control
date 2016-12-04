@@ -7250,3 +7250,18 @@ button.close {
     font-family:sans-serif;
     text-decoration:none;
 }
+
+.seat_green_color {
+    background-color:#ADFF2F;
+    opacity:0.4;
+}
+
+.seat_yellow_color {
+    background-color:#FFD700;
+    opacity:0.4;
+}
+
+.seat_red_color {
+    background-color:#FF0000;
+    opacity:0.4;
+}
