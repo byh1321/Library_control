@@ -1,32 +1,84 @@
 ﻿<!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
     <meta charset="UTF-8">
     <title>4F_Area#1</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/F4_1.css">
+    <link rel="stylesheet" href="{%static 'css/F4_1.css' %}">
 
 </head>
 <body style="height:500px;width:100%;">
     <meta name="viewport" content="width=350px">
     <div class="well" style="height:53px;background-color:#232323;min-width:400px;">
-        <a href="floorselect.html" class="Navvar btn-success" style="font-size:20px;width:180px;text-decoration:none;">박태준학술정보관</a>
-        <a href="#" class="Navvar btn-success" style="margin-top:-46px; margin-left:190px;text-decoration:none;">내 정보 보기</a>
-        <a href="#" class="Navvar btn-success" style="margin-top:-46px; margin-left:290px;text-decoration:none;">로그 아웃</a>
+        <a href="/home" class="Navvar btn-success" style="font-size:20px;width:180px;text-decoration:none;">박태준학술정보관</a>
+        <a href="" class="Navvar btn-success" style="margin-top:-46px; margin-left:190px;text-decoration:none;">{{request.user.username}}</a>
+        <a href="/logout/" class="Navvar btn-success" style="margin-top:-46px; margin-left:290px;text-decoration:none;">로그 아웃</a>
     </div>
 
     <div id="" style="overflow:scroll, hidden; height:420px; width:400px;">
         <!-- Buttons for selecting seat -->
-        <a href="seatselect.html" style="text-decoration:none;" class="btn btn1">4001</a>
-        <a href="seatselect.html" style="text-decoration:none;" class="btn btn2">4002</a>
-        <a href="seatselect.html" style="text-decoration:none;" class="btn btn3">4003</a>
-        <a href="seatselect.html" style="text-decoration:none;" class="btn btn4">4004</a>
+        {% for area in areas %}
+        {% if area.area_id == area_id %}
+        {% for desk in area.desks.all %}
+
+        {% if desk.desk_id == '4001' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/4001" class="btn btn1 seat_green_color" style="text-decoration:none;">4001</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/4001" class="btn btn1 seat_yellow_color" style="text-decoration:none;">4001</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/4001" class="btn btn1 seat_red_color" style="text-decoration:none;">4001</a>
+        {% endif %}
+        {% endif %}
+
+        {% if desk.desk_id == '4002' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/4002" class="btn btn2 seat_green_color" style="text-decoration:none;">4002</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/4002" class="btn btn2 seat_yellow_color" style="text-decoration:none;">4002</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/4002" class="btn btn2 seat_red_color" style="text-decoration:none;">4002</a>
+        {% endif %}
+        {% endif %}
+
+        {% if desk.desk_id == '4003' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/4003" class="btn btn3 seat_green_color" style="text-decoration:none;">4003</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/4003" class="btn btn3 seat_yellow_color" style="text-decoration:none;">4003</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/4003" class="btn btn3 seat_red_color" style="text-decoration:none;">4003</a>
+        {% endif %}
+        {% endif %}
+
+        {% if desk.desk_id == '4004' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/4004" class="btn btn4 seat_green_color" style="text-decoration:none;">4004</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/4004" class="btn btn4 seat_yellow_color" style="text-decoration:none;">4004</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/4004" class="btn btn4 seat_red_color" style="text-decoration:none;">4004</a>
+        {% endif %}
+        {% endif %}
+
+        {% endfor %}
+        {% endif %}
+        {% endfor%}
     </div>
-    
+
     <div id="minimap">
-        <a href="Floor_select_4.html"><img src="css/4F_1_minmap.png" id="minimap"></a>
+        <a href="/floor/4th/"><img src="{%static 'css/4F_1_minmap.png' %}" id="minimap"></a>
     </div>
 </body>
 </html>
