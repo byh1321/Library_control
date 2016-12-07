@@ -18,7 +18,7 @@ body {
     text-align: center;
     opacity: 0.5;
     -webkit-transform: rotate(-10deg);
-    
+    background-color:#000;opacity:0.5;
     
 
     margin-left :40px;
@@ -35,7 +35,7 @@ body {
     text-align: center;
     -webkit-transform: rotate(30deg);
     opacity: 0.5;
-    
+    background-color:#000;opacity:0.5;
     
 
     margin-left :80px;
@@ -52,7 +52,7 @@ body {
     text-align: center;
     opacity: 0.5;
     
-    
+    background-color:#000;opacity:0.5;
 
     margin-left :55px;
     margin-top : -140px;
@@ -68,7 +68,7 @@ body {
     line-height: 25px;
     opacity: 0.5;
     
-    
+    background-color:#000;opacity:0.5;
 
     margin-left :165px;
     margin-top : -60px;
@@ -83,7 +83,7 @@ body {
     text-align: center;
     opacity: 0.5;
     
-    
+    background-color:#000;opacity:0.5;
 
     margin-left :218px;
     margin-top : -7px;
@@ -98,7 +98,7 @@ body {
     text-align: center;
     opacity: 0.5;
     
-    
+    background-color:#000;opacity:0.5;
 
     margin-left :320px;
     margin-top : -90px;
@@ -115,7 +115,7 @@ body {
     -webkit-transform: rotate(320deg);
     opacity: 0.5;
     
-    
+    background-color:#000;opacity:0.5;
 
     margin-left :295px;
     margin-top : 25px;
