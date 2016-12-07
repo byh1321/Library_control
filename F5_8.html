@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
     <meta charset="UTF-8">
@@ -18,22 +19,190 @@
     </div>
     <div id="" style="overflow:scroll, hidden; text-decoration:none; height:550px; width:500px;">
         <!-- Buttons for selecting seat -->
-        <a href="seatselect.html" class="btn qcirclebtn btn1"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn2"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn3"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn4"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn5"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn6"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn7"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn8"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn9"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn10"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn11"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn12"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn13"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn14"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn15"></a>
-        <a href="seatselect.html" class="btn qcirclebtn btn16"></a>
+        {% for area in areas %}
+        {% if area.area_id == area_id %}
+        {% for desk in area.desks.all %}
+        {% if desk.desk_id == '5072' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5072" class="btn qcirclebtn btn1 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5072" class="btn qcirclebtn btn1 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5072" class="btn qcirclebtn btn1 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5073' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5073" class="btn qcirclebtn btn2 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5073" class="btn qcirclebtn btn2 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5073" class="btn qcirclebtn btn2 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5074' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5074" class="btn qcirclebtn btn3 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5074" class="btn qcirclebtn btn3 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5074" class="btn qcirclebtn btn3 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5075' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5075" class="btn qcirclebtn btn4 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5075" class="btn qcirclebtn btn4 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5075" class="btn qcirclebtn btn4 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5076' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5076" class="btn qcirclebtn btn5 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5076" class="btn qcirclebtn btn5 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5076" class="btn qcirclebtn btn5 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5077' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5077" class="btn qcirclebtn btn6 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5077" class="btn qcirclebtn btn6 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5077" class="btn qcirclebtn btn6 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5078' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5078" class="btn qcirclebtn btn7 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5078" class="btn qcirclebtn btn7 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5078" class="btn qcirclebtn btn7 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5079' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5079" class="btn qcirclebtn btn8 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5079" class="btn qcirclebtn btn8 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5079" class="btn qcirclebtn btn8 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5080' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5080" class="btn qcirclebtn btn9 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5080" class="btn qcirclebtn btn9 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5080" class="btn qcirclebtn btn9 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5081' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5081" class="btn qcirclebtn btn10 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5081" class="btn qcirclebtn btn10 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5081" class="btn qcirclebtn btn10 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5082' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5082" class="btn qcirclebtn btn11 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5082" class="btn qcirclebtn btn11 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5082" class="btn qcirclebtn btn11 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5083' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5083" class="btn qcirclebtn btn12 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5083" class="btn qcirclebtn btn12 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5083" class="btn qcirclebtn btn12 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5084' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5084" class="btn qcirclebtn btn13 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5084" class="btn qcirclebtn btn13 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5084" class="btn qcirclebtn btn13 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5085' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5085" class="btn qcirclebtn btn14 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5085" class="btn qcirclebtn btn14 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5085" class="btn qcirclebtn btn14 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5086' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5086" class="btn qcirclebtn btn15 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5086" class="btn qcirclebtn btn15 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5086" class="btn qcirclebtn btn15 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5087' %}
+        {% if desk.state == 'Using' %}
+        <a href="/desk/5087" class="btn qcirclebtn btn16 seat_green_color"></a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="/desk/5087" class="btn qcirclebtn btn16 seat_yellow_color"></a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="/desk/5087" class="btn qcirclebtn btn16 seat_red_color"></a>
+        {% endif %}
+        {% endif %}
+
+
+        {% endfor %}
+        {% endif %}
+        {% endfor%}
     </div>
 
     <div id="minimap">

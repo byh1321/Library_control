@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
     <meta charset="UTF-8">
@@ -18,12 +19,84 @@
     </div>
     <div id="" style="overflow:scroll, hidden; height:390px; width:800px;">
         <!-- Buttons for selecting seat -->
-        <a href="seatselect.html" class="btn btn1" style="text-decoration:none;">5007</a>
-        <a href="seatselect.html" class="btn btn2" style="text-decoration:none;">5008</a>
-        <a href="seatselect.html" class="btn btn3" style="text-decoration:none;">5009</a>
-        <a href="seatselect.html" class="btn btn4" style="text-decoration:none;">5010</a>
-        <a href="seatselect.html" class="btn btn5" style="text-decoration:none;">5011</a>
-        <a href="seatselect.html" class="btn btn6" style="text-decoration:none;">5012</a>
+        {% for area in areas %}
+        {% if area.area_id == area_id %}
+        {% for desk in area.desks.all %}
+        {% if desk.desk_id == '5007' %}
+        {% if desk.state == 'Using' %}
+        <a href="seatselect.html" class="btn btn1 seat_green_color" style="text-decoration:none;">5007</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="seatselect.html" class="btn btn1 seat_yellow_color" style="text-decoration:none;">5007</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="seatselect.html" class="btn btn1 seat_red_color" style="text-decoration:none;">5007</a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5008' %}
+        {% if desk.state == 'Using' %}
+
+        <a href="seatselect.html" class="btn btn2 seat_green_color" style="text-decoration:none;">5008</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="seatselect.html" class="btn btn2 seat_yellow_color" style="text-decoration:none;">5008</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="seatselect.html" class="btn btn2 seat_red_color" style="text-decoration:none;">5008</a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5009' %}
+        {% if desk.state == 'Using' %}
+
+        <a href="seatselect.html" class="btn btn3 seat_green_color" style="text-decoration:none;">5009</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="seatselect.html" class="btn btn3 seat_yellow_color" style="text-decoration:none;">5009</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="seatselect.html" class="btn btn3 seat_red_color" style="text-decoration:none;">5009</a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5010' %}
+        {% if desk.state == 'Using' %}
+
+        <a href="seatselect.html" class="btn btn4 seat_green_color" style="text-decoration:none;">5010</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="seatselect.html" class="btn btn4 seat_yellow_color" style="text-decoration:none;">5010</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="seatselect.html" class="btn btn4 seat_red_color" style="text-decoration:none;">5010</a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5011' %}
+        {% if desk.state == 'Using' %}
+
+        <a href="seatselect.html" class="btn btn5 seat_green_color" style="text-decoration:none;">5011</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="seatselect.html" class="btn btn5 seat_yellow_color" style="text-decoration:none;">5011</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="seatselect.html" class="btn btn5 seat_red_color" style="text-decoration:none;">5011</a>
+        {% endif %}
+        {% endif %}
+        {% if desk.desk_id == '5012' %}
+        {% if desk.state == 'Using' %}
+
+        <a href="seatselect.html" class="btn btn6 seat_green_color" style="text-decoration:none;">5012</a>
+        {% endif %}
+        {% if desk.state == 'Empty' %}
+        <a href="seatselect.html" class="btn btn6 seat_yellow_color" style="text-decoration:none;">5012</a>
+        {% endif %}
+        {% if desk.state == 'NotUsing' %}
+        <a href="seatselect.html" class="btn btn6 seat_red_color" style="text-decoration:none;">5012</a>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endfor%}
+
     </div>
 
     <div id="minimap">
